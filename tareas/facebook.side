@@ -1,0 +1,90 @@
+{
+  "id": "738fc2b2-31ab-44b8-b4aa-0265ca2a7991",
+  "name": "Untitled Project",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "864c9148-fb52-494d-9722-d567d958c07d",
+    "name": "Notificacion",
+    "commands": [{
+      "id": "a859aa93-7f0f-4d3f-bf3e-e3d2714ae781",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "e6e3a21a-aac4-49fb-ae58-6719651296d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "value": "spawnd20@gmail.com"
+    }, {
+      "id": "02ce4de2-3d8b-43c5-969f-f472bf56b892",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "value": "123456a!"
+    }, {
+      "id": "72fd87b7-116c-478f-a053-f8adc598461c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "value": ""
+    }, {
+      "id": "fa66fcaa-f237-4e22-9c97-63a4b316df8e",
+      "comment": "",
+      "command": "click",
+      "target": "name=notifications",
+      "value": ""
+    }, {
+      "id": "c5260c5a-d284-402b-a6cf-d15430f8f15a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='seeMore']",
+      "value": ""
+    }]
+  }, {
+    "id": "246c8ada-50c4-498b-9e48-f35f39ea4342",
+    "name": "Publicacion",
+    "commands": [{
+      "id": "13a98c2c-b3c7-4384-b16a-668fc372e0c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "20959bde-17d8-47a0-af50-8b522c784f78",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "value": "spawnd20@gmail.com"
+    }, {
+      "id": "70a1201a-9600-4d72-9d71-9e64e904623e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "value": "123456a!"
+    }, {
+      "id": "a2d3e17d-d173-4769-8d5c-302c546e9612",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "value": ""
+    }, {
+      "id": "bbb7092d-0e38-4deb-b0a8-dfe20e388e62",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='_1k67 _cy7 f_click']/a",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "482fdc73-d6b5-4b35-9bcb-8ccd79ced027",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["864c9148-fb52-494d-9722-d567d958c07d"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
